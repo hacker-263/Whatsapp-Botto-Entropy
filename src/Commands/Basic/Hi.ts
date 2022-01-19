@@ -11,6 +11,6 @@ import Message from '../../Structures/Message'
 })
 export default class extends BaseCommand {
     override execute = async (M: Message): Promise<void> => {
-        await M.reply(`Hello Child 👽 | ${M.sender.username}`)
+        await M.reply(`Hello Child 👽, I'm Zed-Bot By Hacker_263 | ${M.sender.username}`)
     }
 }
